@@ -1,0 +1,8 @@
+.my-nav{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}

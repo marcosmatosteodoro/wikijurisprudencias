@@ -15,13 +15,23 @@
 </head>
 <body>
     <header>
-
+        @component('components.site.header')
+        @endcomponent
     </header>
 
     <main>
         @yield('content')
     </main>
 
+    <aside>
+        
+        @component('components.site.modal-cadastrar')
+        @endcomponent
+
+        @component('components.site.modal-entrar')
+        @endcomponent
+
+    </aside>
     <footer>
 
     </footer>
